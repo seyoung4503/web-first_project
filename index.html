@@ -3,24 +3,56 @@
 <head>
   <title>Dimano</title>
   <meta charset="utf-8">
+  <style>
+    body{
+      margin:0;
+    }
+    a {
+      text-decoration:none;
+      color:coral;
+    }
+    h1 {
+      text-align:center;
+      font-size:45px;
+      display:block;
+      border-bottom: 1px solid gray;
+      padding-bottom: 25px;
+      margin-bottom: 0px;
+    }
+    ol {
+      border-right: 1px solid gray;
+      width: 200px;
+      margin-top:0;
+      padding-top:10px;
+      padding-left:33px;
+      margin-bottom: 0;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 260px 1fr;
+    }
+    @media (max-width:800px) {
+      #grid{
+        display: none;
+      }
+    }
+  </style>
 </head>
 <body>
   <h1><a href="index.html">Dimano</a></h1>
-  <ol>
-    <li><a href="1.html">Atopy improving soaps</a></li>
-    <li><a href="2.html">Acne improving soaps</a></li>
-    <li><a href="3.html">Oriental soaps</a></li>
-  </ol>
-  <h2>What is the Dimano soaps?</h2>
-  <p>
-  Did you know <strong>Dimano soaps?</strong><p style="margin-top:10px;"><a href="http://dimano.co.kr/" target="_blank" title="Korean Natural oriental herbal Soaps">Dimano's soaps</a> are made with 100% herbal extracts, not just a minimal amount of herbal extracts to allow it to have an authentic claim.<br>Dimano makes envirnmentally-friendly products.<br>It does not include any chemical additives.
-    <img src="http://dimano.co.kr/web/upload/ecde/visual_03.jpg" width="100%">
-    </p><p style="margin-top:45px;">
-      dimano's "mission' is to deliver products that will make its customers feel impressed and healthy.
-      <img src="http://dimano.co.kr/web/upload/ecde/visual_05.jpg" width="100%">
-    </p>
-  </p>Now, you know!
-  <p style="margin-top:100px;">
-  </p>
+  <div id="grid">
+    <ol>
+      <li><a href="1.html">Atopy improving soaps</a></li>
+      <li><a href="2.html">Acne improving soaps</a></li>
+      <li><a href="3.html">Oriental soaps</a></li>
+    </ol>
+    <div>
+      <h2>What is the Dimano soaps?</h2>
+      <p>
+        Did you know <strong>Dimano soaps?</strong><p style="margin-top:10px;"><a href="http://dimano.co.kr/" target="_blank" title="Korean Natural oriental herbal Soaps">Dimano's soaps</a> are made with 100% herbal extracts, not just a minimal amount of herbal extracts to allow it to have an authentic claim. Dimano makes envirnmentally-friendly products. It does not include any chemical additives.
+        Now, you know!
+      </p>
+    </div>
+  </div>
 </body>
 </html>
